@@ -1,6 +1,6 @@
 /*********************************************************************************
    @Author: David Sullivan
-   @Description: How to generate a list of SObject IDs using map & list collection
+   @Description: How to generate a list of SObject IDs using keySet method
 **********************************************************************************/
 
 // Map to query & hold SObject records
