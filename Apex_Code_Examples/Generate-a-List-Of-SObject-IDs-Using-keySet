@@ -1,0 +1,13 @@
+/*********************************************************************************
+   @Author: David Sullivan
+   @Description: How to generate a list of SObject IDs using map & list collection
+**********************************************************************************/
+
+// Map to query & hold SObject records
+Map<Id, Case> cases = new Map<Id, Case>([SELECT Id FROM Case]);
+
+// List to generate list of SObject record IDs
+List<Id>caseIDs = new List<Id>(cases.keySet());
+
+// Print SObject record IDs to the debug log
+System.debug(caseIDs);
