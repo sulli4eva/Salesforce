@@ -36,7 +36,7 @@ private class UpdateAccountBillingStateTest {
         System.enqueueJob(runJob);
         Test.stopTest();
 
-        // Run test
+        // Check results
         System.assertEquals(100, queryAccounts.size());
     }
 }
