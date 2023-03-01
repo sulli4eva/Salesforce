@@ -1,7 +1,7 @@
 /*******************************************************************************************
 * @Author: David Sullivan
 * @CreatedDate: 2/28/23
-* @CreationDescription: Update account billing state for all the accounts
+* @CreationDescription: Update account billing state for all the accounts using queueable apex
 * @Credits: https://www.youtube.com/watch?v=55F_dv9ig9s&t=84s
 /*******************************************************************************************
 * @LastModifiedBy: David Sullivan
